@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Substitua 'SEU_TOKEN_BOT' pelo token do seu bot
-TOKEN = 'SEU_TOKEN_BOT'
+TOKEN = '5923582499:AAEFn9OBHHT886VM7d9ZEmoIKnFBsP09gWg'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Bem-vindo ao CryptoBot! Use /previsao para obter uma previsão de mercado.')
