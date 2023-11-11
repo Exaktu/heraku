@@ -33,10 +33,10 @@ def main() -> None:
     dp.add_handler(CommandHandler("previsao", previsao))
 
     # Use o webhook se estiver hospedando no Heroku
-    if 'HEROKU_APP_NAME' in os.environ:
+    if 'HEROKU_APP_hotbotie' in os.environ:
         PORT = int(os.environ.get('PORT', '8443'))
         updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=TOKEN)
-        updater.bot.setWebhook(f"https://{os.environ['HEROKU_APP_NAME']}.herokuapp.com/{TOKEN}")
+        updater.bot.setWebhook(f"https://{os.environ['HEROKU_APP_hotbotie']}.herokuapp.com/{5923582499:AAEFn9OBHHT886VM7d9ZEmoIKnFBsP09gWg}")
 
     else:
         updater.start_polling()
