@@ -3,7 +3,7 @@ import os
 import random[Uploading rFlask==2.0.1
 python-telegram-bot==19.13
 equirements.txt…]()
-
+Procfile
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
