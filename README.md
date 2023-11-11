@@ -6,6 +6,7 @@ equirements.txt…]()
 Procfile
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
+web: python crypto_bot.py
 
 # Substitua 'SEU_TOKEN_BOT' pelo token do seu bot
 TOKEN = '5923582499:AAEFn9OBHHT886VM7d9ZEmoIKnFBsP09gWg'
