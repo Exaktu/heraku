@@ -1,6 +1,9 @@
-# heraku 
+[requirements.txt](https://github.com/Exaktu/heraku/files/13324388/requirements.txt)# heraku 
 import os
-import random
+import random[Uploading rFlask==2.0.1
+python-telegram-bot==19.13
+equirements.txt…]()
+
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
